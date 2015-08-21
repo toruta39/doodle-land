@@ -8,6 +8,7 @@ import p2c from './math/p2c';
 
 const DemoScene = {};
 
+// refs: http://paperjs.org/examples/meta-balls/
 let ballPositions = [[255, 129], [610, 73], [486, 363],
   [117, 459], [484, 726], [843, 306], [789, 615], [1049, 82],
   [1292, 428], [1117, 733], [1352, 86], [92, 798]];

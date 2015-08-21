@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "budo index.js:dist/bundle.js -t babelify --live | garnish",
+    "build": "browserify -t babelify index.js > dist/bundle.js"
   },
   "keywords": [],
   "author": "",
